@@ -3,6 +3,7 @@
 namespace Weew\Events\ContainerAware;
 
 use Weew\Container\IContainer;
+use Weew\Events\ContainerAware\Invokers\CallableInvoker;
 use Weew\Events\ContainerAware\Invokers\SubscriberInvoker;
 use Weew\Events\EventDispatcher as BaseDispatcher;
 
@@ -25,7 +26,7 @@ class EventDispatcher extends BaseDispatcher {
      */
     protected function createDefaultInvokers() {
         return [
-            new Invokers\CallableInvoker($this->container),
+            new CallableInvoker($this->container),
             new SubscriberInvoker($this->container)
         ];
     }
