@@ -1,12 +1,12 @@
 <?php
 
-namespace Weew\Events;
+namespace Weew\Events\ContainerAware;
 
 use Weew\Container\IContainer;
-use Weew\Events\Invokers\ContainerAwareCallableInvoker;
-use Weew\Events\Invokers\ContainerAwareSubscriberInvoker;
+use Weew\Events\ContainerAware\Invokers\SubscriberInvoker;
+use Weew\Events\EventDispatcher as BaseDispatcher;
 
-class ContainerAwareEventDispatcher extends EventDispatcher {
+class EventDispatcher extends BaseDispatcher {
     /**
      * @var IContainer
      */
@@ -25,8 +25,8 @@ class ContainerAwareEventDispatcher extends EventDispatcher {
      */
     protected function createDefaultInvokers() {
         return [
-            new ContainerAwareCallableInvoker($this->container),
-            new ContainerAwareSubscriberInvoker($this->container)
+            new Invokers\CallableInvoker($this->container),
+            new SubscriberInvoker($this->container)
         ];
     }
 }

@@ -1,11 +1,12 @@
 <?php
 
-namespace Weew\Events\Invokers;
+namespace Weew\Events\ContainerAware\Invokers;
 
 use Weew\Container\IContainer;
 use Weew\Events\IEvent;
+use Weew\Events\Invokers\CallableInvoker as BaseInvoker;
 
-class ContainerAwareCallableInvoker extends CallableInvoker {
+class CallableInvoker extends BaseInvoker {
     /**
      * @var IContainer
      */

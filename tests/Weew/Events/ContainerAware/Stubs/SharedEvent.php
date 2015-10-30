@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Weew\Events\Stubs;
+namespace Tests\Weew\Events\ContainerAware\Stubs;
 
 use Weew\Events\Event;
 

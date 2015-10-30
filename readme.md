@@ -21,8 +21,8 @@ This package integrates [weew/php-events](https://github.com/weew/php-events) wi
 
 ## Usage
 
-Simply create an instance of `ContainerAwareEventDispatcher` instead of the `EventDispatcher` and pass in an instance of `IContainer`.
+Simply create a container aware instance of `EventDispatcher` and pass in an instance of `IContainer`.
 
 ```php
-$kernel = new ContainerAwareEventDispatcher(new Container());
+$kernel = new Weew\Events\ContainerAware\EventDispatcher(new Container());
 ```
