@@ -1,9 +1,11 @@
 # Events container integration
 
-[![Build Status](https://travis-ci.org/weew/php-events-container-aware.svg?branch=master)](https://travis-ci.org/weew/php-events-container-aware)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/weew/php-events-container-aware/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/weew/php-events-container-aware/?branch=master)
-[![Coverage Status](https://coveralls.io/repos/weew/php-events-container-aware/badge.svg?branch=master&service=github)](https://coveralls.io/github/weew/php-events-container-aware?branch=master)
-[![License](https://poser.pugx.org/weew/php-events-container-aware/license)](https://packagist.org/packages/weew/php-events-container-aware)
+[![Build Status](https://img.shields.io/travis/weew/php-events-container-aware.svg)](https://travis-ci.org/weew/php-events-container-aware)
+[![Code Quality](https://img.shields.io/scrutinizer/g/weew/php-events-container-aware.svg)](https://scrutinizer-ci.com/g/weew/php-events-container-aware)
+[![Test Coverage](https://img.shields.io/coveralls/weew/php-events-container-aware.svg)](https://coveralls.io/github/weew/php-events-container-aware)
+[![Dependencies](https://img.shields.io/versioneye/d/php/weew:php-events-container-aware.svg)](https://versioneye.com/php/weew:php-events-container-aware)
+[![Version](https://img.shields.io/packagist/v/weew/php-events-container-aware.svg)](https://packagist.org/packages/weew/php-events-container-aware)
+[![Licence](https://img.shields.io/packagist/l/weew/php-events-container-aware.svg)](https://packagist.org/packages/weew/php-events-container-aware)
 
 ## Table of contents
 
