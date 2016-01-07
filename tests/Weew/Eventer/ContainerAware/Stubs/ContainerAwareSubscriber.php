@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Weew\Events\ContainerAware\Stubs;
+namespace Tests\Weew\Eventer\ContainerAware\Stubs;
 
 use Weew\Container\IContainer;
-use Weew\Events\IEvent;
-use Weew\Events\IEventSubscriber;
+use Weew\Eventer\IEvent;
+use Weew\Eventer\IEventSubscriber;
 
 class ContainerAwareSubscriber implements IEventSubscriber {
     public function __construct(IContainer $container) {}

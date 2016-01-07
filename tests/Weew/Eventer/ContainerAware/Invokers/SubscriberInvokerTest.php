@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Weew\Events\ContainerAware\Invokers;
+namespace Tests\Weew\Eventer\ContainerAware\Invokers;
 
 use PHPUnit_Framework_TestCase;
-use Tests\Weew\Events\ContainerAware\Stubs\ContainerAwareSubscriber;
-use Tests\Weew\Events\ContainerAware\Stubs\SharedEvent;
+use Tests\Weew\Eventer\ContainerAware\Stubs\ContainerAwareSubscriber;
+use Tests\Weew\Eventer\ContainerAware\Stubs\SharedEvent;
 use Weew\Container\Container;
-use Weew\Events\ContainerAware\Invokers\SubscriberInvoker;
-use Weew\Events\EventSubscription;
+use Weew\Eventer\ContainerAware\Invokers\SubscriberInvoker;
+use Weew\Eventer\EventSubscription;
 
 class SubscriberInvokerTest extends PHPUnit_Framework_TestCase {
     public function test_invoke() {

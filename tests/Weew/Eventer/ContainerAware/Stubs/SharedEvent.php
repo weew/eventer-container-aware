@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Weew\Events\ContainerAware\Stubs;
+namespace Tests\Weew\Eventer\ContainerAware\Stubs;
 
-use Weew\Events\Event;
+use Weew\Eventer\Event;
 
 class SharedEvent extends Event {
     private $shared;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Weew\Events\ContainerAware\Invokers;
+namespace Weew\Eventer\ContainerAware\Invokers;
 
 use Weew\Container\IContainer;
-use Weew\Events\IEvent;
-use Weew\Events\IEventSubscriber;
-use Weew\Events\Invokers\SubscriberInvoker as BaseInvoker;
+use Weew\Eventer\IEvent;
+use Weew\Eventer\IEventSubscriber;
+use Weew\Eventer\Invokers\SubscriberInvoker as BaseInvoker;
 
 class SubscriberInvoker extends BaseInvoker {
     /**
