@@ -23,7 +23,7 @@ This package integrates [weew/php-eventer](https://github.com/weew/php-eventer) 
 
 ## Usage
 
-Simply create a container aware instance of `Eventer` and pass in an instance of `IContainer`.
+Simply create a new instance of the container aware `Eventer` and pass in an instance of `IContainer`.
 
 ```php
 $kernel = new Weew\Events\ContainerAware\Eventer(new Container());
