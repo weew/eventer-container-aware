@@ -3,7 +3,6 @@
 [![Build Status](https://img.shields.io/travis/weew/php-eventer-container-aware.svg)](https://travis-ci.org/weew/php-eventer-container-aware)
 [![Code Quality](https://img.shields.io/scrutinizer/g/weew/php-eventer-container-aware.svg)](https://scrutinizer-ci.com/g/weew/php-eventer-container-aware)
 [![Test Coverage](https://img.shields.io/coveralls/weew/php-eventer-container-aware.svg)](https://coveralls.io/github/weew/php-eventer-container-aware)
-[![Dependencies](https://img.shields.io/versioneye/d/php/weew:php-eventer-container-aware.svg)](https://versioneye.com/php/weew:php-eventer-container-aware)
 [![Version](https://img.shields.io/packagist/v/weew/php-eventer-container-aware.svg)](https://packagist.org/packages/weew/php-eventer-container-aware)
 [![Licence](https://img.shields.io/packagist/l/weew/php-eventer-container-aware.svg)](https://packagist.org/packages/weew/php-eventer-container-aware)
 
