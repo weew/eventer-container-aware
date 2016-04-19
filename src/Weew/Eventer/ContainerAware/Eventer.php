@@ -17,8 +17,22 @@ class Eventer extends BaseEventer {
      * @param IContainer $container
      */
     public function __construct(IContainer $container) {
-        $this->container = $container;
+        $this->setContainer($container);
         parent::__construct();
+    }
+
+    /**
+     * @return IContainer
+     */
+    public function getContainer() {
+        return $this->container;
+    }
+
+    /**
+     * @param IContainer $container
+     */
+    public function setContainer(IContainer $container) {
+        $this->container = $container;
     }
 
     /**
