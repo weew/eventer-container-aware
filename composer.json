@@ -1,5 +1,5 @@
 {
-    "name": "weew/php-eventer-container-aware",
+    "name": "weew/eventer-container-aware",
     "description": "Container integration for the weew/php-eventer package.",
     "license": "MIT",
     "authors": [
@@ -19,8 +19,8 @@
         }
     },
     "require": {
-        "weew/php-container": "^1.0.0",
-        "weew/php-eventer": "^2.0"
+        "weew/container": "^1.0.0",
+        "weew/eventer": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.7",
