@@ -1,6 +1,6 @@
 {
     "name": "weew/eventer-container-aware",
-    "description": "Container integration for the weew/php-eventer package.",
+    "description": "Container integration for the weew/eventer package.",
     "license": "MIT",
     "authors": [
         {
